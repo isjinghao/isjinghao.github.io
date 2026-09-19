@@ -27,13 +27,19 @@
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="icon" type="image/png" href="images/me.png">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
 </head>
 
 
 <body>
-  <table style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <nav class="section-drip-nav" aria-label="Section navigation">
+    <a href="#about"><span>About</span></a>
+    <a href="#news"><span>News</span></a>
+    <a href="#publications"><span>Papers</span></a>
+    <a href="#experience"><span>Experience</span></a>
+    <a href="#service"><span>Service</span></a>
+    <a href="#awards"><span>Awards</span></a>
+  </nav>
+  <table id="about" class="page-section" style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
     <tr style="padding:0px">
       <td style="padding:0px">
 	      
@@ -45,23 +51,39 @@
                 <name>Jing HAO</name>
               </p>
               <p>
-	      I'm pursuing my Ph.D. degree in the University of HongKong, Faculty of Dentistry (Ranking 2nd in the world), specializing in <font color="#FF0000"><strong>Medical AI and MLLM</strong></font>, supervised by <a href="https://scholar.google.com/citations?user=17V5x14AAAAJ&hl=zh-CN">Prof. Kuo Feng Hung</a> and <a href="https://scholar.google.com/citations?user=mXzEprAAAAAJ">Prof. Tsoi, James Kit Hon</a>. 
+	      I'm pursuing my Ph.D. degree at <a href="https://www.hku.hk/">The University of Hong Kong</a>, Faculty of Dentistry (Ranking 2nd in the world), specializing in <font color="#FF0000"><strong>Medical AI and MLLM</strong></font>, supervised by <a href="https://scholar.google.com/citations?user=17V5x14AAAAJ&hl=zh-CN">Prof. Kuo Feng Hung</a> and <a href="https://scholar.google.com/citations?user=mXzEprAAAAAJ">Prof. James Kit Hon Tsoi</a>. I lead the <font color="#FF0000"><strong>OralGPT-Family</strong></font> series of work (OralGPT, OralGPT-Omni, OralGPT-Plus, and OralAgent).
               </p>
 	      <p>
-	      Previously, I worked as a Computer Vision Engineer on Baidu VIS from 2022.07 to 2024.08. I received my M.S. degree in Huazhong University of Science and Technology (HUST, 2022), and B.S. degree in Chinese University of Mining and Technology (CUMT, 2020).
+	      I am currently a visiting student at <a href="https://www.antgroup.com/">Ant Group</a> (Ant Star). Previously, I was a visiting student at <a href="https://www.shlab.org.cn/">Shanghai AI Lab</a> (2026.01–2026.05), and worked as a Computer Vision Engineer at Baidu VIS from 2022.07 to 2024.08. I received my M.S. degree from Huazhong University of Science and Technology (HUST, 2022), and B.S. degree from China University of Mining and Technology (CUMT, 2020).
 	      </p>
               <p>
-              My research interests span the area of computer vision, self-supervised pre-training, multimodal large language model (mllm), and AI4Science.
+              My research interests span MLLM, Agent, and AI4Science.
               </p>
-              <p style="text-align:center;font-size:20px;">		      
-                <a href="mailto:isjinghao@gmail.com" target="_blank"><button style='font-size:16px'><i class='fas fa-envelope'></i> e-mail</button> </a> &nbsp/&nbsp
-                <a href="https://scholar.google.com/citations?user=E8R8c00AAAAJ&hl=zh-CN" target="_blank"><button style='font-size:16px'><i class="ai ai-google-scholar"></i> Scholar</button></a> &nbsp/&nbsp
-		<a href="https://github.com/isbrycee/" target="_blank"><button style='font-size:16px'><i class="fab fa-github"></i> github</button> </a> &nbsp/&nbsp
-		<a href="https://mp.weixin.qq.com/s/rwzFtfKMEwPjeTHRmdr32g" target="_blank"><button style='font-size:16px'><i class="fab fa-weixin icon"></i> Wechat</button> </a> &nbsp/&nbsp
-		<a href="https://orcid.org/0000-0002-2305-1201" target="_blank"><button style='font-size:16px'><i class="fa fa-user icon"></i> ORCiD</button> </a> 
-
-		<!-- <a href="" target="_blank"><button style='font-size:16px'><i class="fab fa-linkedin"></i> linkedin</button> </a>  -->
-	      </p>
+              <div class="contact-divider"></div>
+              <p class="contact-links">
+                <span class="contact-line">
+                <a href="mailto:isjinghao@gmail.com">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"></rect><path d="m3 7 9 6 9-6"></path></svg>
+                  Email
+                </a> &nbsp/&nbsp
+                <a href="https://scholar.google.com/citations?user=E8R8c00AAAAJ&hl=zh-CN" target="_blank" rel="noopener noreferrer">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 3 1.5 9 12 15 22.5 9 12 3Z"></path><path d="M5 12.1v4.2c0 1.2 3.1 3.2 7 3.2s7-2 7-3.2v-4.2l-7 4-7-4Z"></path></svg>
+                  Scholar
+                </a> &nbsp/&nbsp
+                <a href="https://github.com/isjinghao/" target="_blank" rel="noopener noreferrer">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.6 5.6.6 11.9c0 5 3.3 9.3 7.9 10.8.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 .1.5 2.7 3.2 1.9.1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.5-2.3 1.2-3.1-.1-.3-.5-1.6.1-3.1 0 0 1-.3 3.2 1.2.9-.3 1.9-.4 2.9-.4s2 .1 2.9.4c2.2-1.5 3.2-1.2 3.2-1.2.6 1.5.2 2.8.1 3.1.8.9 1.2 1.8 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.2c0 .3.2.7.8.6 4.6-1.5 7.9-5.8 7.9-10.8C23.4 5.6 18.3.5 12 .5Z"></path></svg>
+                  GitHub
+                </a> &nbsp/&nbsp
+                <a href="https://mp.weixin.qq.com/s/rwzFtfKMEwPjeTHRmdr32g" target="_blank" rel="noopener noreferrer">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M9.5 4C5.36 4 2 6.69 2 10c0 1.9 1.1 3.6 2.8 4.7L4.2 17l2.6-1.3c.8.2 1.7.3 2.6.3.3 0 .6 0 .9-.1-.3-.6-.5-1.2-.5-1.9 0-3.31 3.13-6 7-6 .2 0 .4 0 .6 0C16.7 5.6 13.4 4 9.5 4zm-2 2.5a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm5 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2zM17 9c-3.31 0-6 2.24-6 5s2.69 5 6 5c.7 0 1.4-.1 2-.3L21 20l-.6-1.8c1.1-.8 1.6-1.9 1.6-3.2 0-2.76-2.69-5-5-5zm-2 3a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8zm4 0a.9.9 0 1 1 0 1.8.9.9 0 0 1 0-1.8z"></path></svg>
+                  WeChat
+                </a> &nbsp/&nbsp
+                <a href="https://orcid.org/0000-0002-2305-1201" target="_blank" rel="noopener noreferrer">
+                  <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM8.15 6.55a1.15 1.15 0 1 1 0 2.3 1.15 1.15 0 0 1 0-2.3zM7.3 10h1.7v7.5H7.3V10zm3.4 0h4.4c2.25 0 3.7 1.55 3.7 3.75S17.35 17.5 15.1 17.5h-4.4V10zm1.7 1.45v4.6h2.55c1.4 0 2.2-.9 2.2-2.3s-.8-2.3-2.2-2.3H12.4z"></path></svg>
+                  ORCiD
+                </a>
+                </span>
+              </p>
             </td>
             <td style="padding:3%;width:40%;max-width:40%">
               <img style="width:110%;max-width:110%" alt="profile photo" src="images/me_hku.jpg" class="hoverZoomLink">
@@ -74,77 +96,54 @@
 <!-- end self-intro -->
 	
 <!-- News -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table id="news" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
             <heading>News</heading>
-            <p>
-		<li style="margin: 5px;" > 
-		[Jun. 2026] Two papers have been accepted to <b>MICCAI 2026</b> ! Many thanks to Jiamin Wu and Ming Hu.  
-              </li> 
-		<li style="margin: 5px;" > 
-		[Feb. 2026] One paper <a href="https://arxiv.org/abs/2511.22055">OralGPT-Omni</a> has been accepted to <b>CVPR 2026</b>. Congratulations 🎉🎉🎉
-              </li> 
-		<li style="margin: 5px;" > 
-		[Feb. 2026] One paper <a href="https://arxiv.org/abs/2603.06366">OralGPT-Plus</a> has been accepted to <b>CVPR 2026</b>. Congratulations 🎉🎉🎉
-              </li> 
-		<li style="margin: 5px;" > 
-		[Feb. 2026] One paper <a href="https://arxiv.org/pdf/2412.14233?">Enhancing Descriptive Captions (EDC)</a> has been accepted to <b>CVPR 2026</b>. Congratulations 🎉🎉🎉
-              </li> 
-		<li style="margin: 5px;" > 
-		[Nov. 2025] One paper <a href="https://github.com/isbrycee/OralGPT">HiFi-Mamba</a> has been accepted to <b>AAAI 2026</b> ! Many thanks to Yingxuan.  
-              </li> 
-		 <li style="margin: 5px;" > 
-		[Oct. 2025] One paper <a href="https://arxiv.org/pdf/2404.01065">T-Mamaba</a> has been accepted to <b>IEEE TMM</b> !
-              </li> 
-		  <li style="margin: 5px;" >
-		[Sep. 2025] One paper <a href="https://arxiv.org/pdf/2509.09254">MMOral & OralGPT</a> has been accepted to <b>NeurIPS 2025</b>. Congratulations 🎉🎉🎉
-              </li>
-	      <li style="margin: 5px;" >
-		[Jul. 2025] One <a href="https://watermark02.silverchair.com/twaf060.pdf?token=AQECAHi208BE49Ooan9kkhW_Ercy7Dm3ZL_9Cf3qfKAc485ysgAAA3wwggN4BgkqhkiG9w0BBwagggNpMIIDZQIBADCCA14GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMJDP17FmoUoTbUD-HAgEQgIIDL5EI_TqqWuDDynL310NeK7Q2wcOmPduzzvBWnDfgHiKxC7mcQbexE-Bk7_K_iAfCjyM0iAqBdmgkz5Gt5DN1Xn2_Inr3KmJhbtDxTH5tcusyV9T9RSzXrkWehRe_LZOtv9D2cD2q58isNU1MCCytZVmlASc4XEm3cXdeJOi6hDg8tJjXRQ8o_QoFnJcdC4aZruTg88H27pS-cHFoJXNntxu4TP54QBUx88GYVdEV5R8VMJzm5ZG9STmT6tmVC9p7aEKJx5SRBTriJ9TSxHEAovJ5EmlOzRg_mxnMjFLkBqP52Ndz42Wlk_GIu3CN0EFuMxelSlhCjTcFecuhFjdb4upbgMAMiefTUBm9wktcwXgzovhia7AQu11Xu0qyFHI3kbhDCVTp3iuPmhUpMKJ7nWE2MT6PAzmTaJpBIBTIquqY2sVVoyD16O-CfAmndZ3jo4bp11ClAlSJfswOE0yHSSePyefJzbpxiIb1uGXZO6Z351EfOnNugkTOnenPzGOFUU0gZiPY-Rng0-1RyyFFuvLHQINHd5OCijE5jr92hcYxtiyU0M6ArhJTHTIryB8Zzw1XfgadT5u89bIOF4_WoxS671r64ls85_15Vgy8ozS980YFV5qFi2zkJiypeKBWDd1S1ipoH903bhYcCdVZKCMz048qIf7Y90yTBAVvPG4aEp130jagTA-tnlRNa9rfoeAjVo68zjJOLyP7q6RbtghKPO4ZmbykGL8Z8zC_zX4jxROPAHgJjcD6XKlfZfiKQLr3jiPG2zOWQQWcaWPu--XALiQHcRunRKCLuGAdJB9s_p_-7Ig-4UtsdhqfwTXY503XkvoKlh6j8DHGDG2VcjjzwgQc8_L9x83eUDbQeAREEzqY2-pDPmTUb-Dvqft6uQVddiwEDr8R5vmCND7q3JQF17aALm4bBEkv_gFHxWTjb2S4jl3COfZySwZCIT7__EyMnVLd10i0VatyPgwauPBSA3DURCOmme0SNyTF6SmNjQxg39BbElWrv5-c1SPF0ZUZoNTocedQkrDNoUnPxNIzCwzhzS2WfIS4toZ17Dvo9E9mBTpggKfsvNZ2pLFC">paper</a> has been accepted to <b>DMFR</b> (IF=4.1). Many thanks to Joe. 
-              </li>
-	      <li style="margin: 5px;" >
-		[Jun. 2025] One <a href="https://www.nature.com/articles/s41746-025-01818-5">paper</a> has been accepted to <b>npj Digital Medicine</b> (IF=15.1). Congratulations 🎉🎉🎉
-              </li>
-	      <li style="margin: 5px;" > 
-		[Nov. 2024] One paper <a href="https://openreview.net/pdf?id=8sJ5Kv9VuS">SemiT-SAM</a> has been accepted to <b>MICCAI 2024 Workshop</b> !
-              </li> 
-	      <li style="margin: 5px;" > 
-		[Oct. 2024] One paper <a href="https://arxiv.org/pdf/2307.12018">GEM</a> has been accepted to <b>IEEE TMM</b> !
-              </li> 
-              <li style="margin: 5px;" > 
-		[Oct. 2024] I got 6th place in ToothFairy2 : Semi-supervised Teeth Segmentation hold on <b>MICCAI2024</b> !
-              </li>  
-	      <li style="margin: 5px;" > 
-		[Sep. 2024] One paper <a href="https://arxiv.org/pdf/2409.13540">FullAnno</a> has been released in Arxiv !
-              </li>   
-	      <li style="margin: 5px;" > 
-		[July. 2024] One paper <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608024004301">METR</a> has been accepted to <b>Neural Networks</b> !
-              </li>
-	      <li style="margin: 5px;" >
-                [Aug. 2023] I have received my IELTS scores 7(6) !
-              </li>
-            </p>
+            <ul class="news-list" id="newsList">
+              <li class="news-item"><span class="news-date-badge">Aug. 2026</span> One <a href="https://www.sciencedirect.com/science/article/pii/S0020653926017272">clinical paper</a> has been accepted to <span class="news-highlight">International Dental Journal</span>! Many thanks to Kathy Guo.</li>
+              <li class="news-item"><span class="news-date-badge">Jun. 2026</span> Two papers have been accepted to <span class="news-highlight">MICCAI 2026</span>! Many thanks to Jiamin Wu and Ming Hu.</li>
+              <li class="news-item"><span class="news-date-badge">Feb. 2026</span> One paper <a href="https://arxiv.org/abs/2511.22055">OralGPT-Omni</a> has been accepted to <span class="news-highlight">CVPR 2026</span>.</li>
+              <li class="news-item"><span class="news-date-badge">Feb. 2026</span> One paper <a href="https://arxiv.org/abs/2603.06366">OralGPT-Plus</a> has been accepted to <span class="news-highlight">CVPR 2026</span>.</li>
+              <li class="news-item"><span class="news-date-badge">Feb. 2026</span> One paper <a href="https://arxiv.org/pdf/2412.14233?">Enhancing Descriptive Captions (EDC)</a> has been accepted to <span class="news-highlight">CVPR 2026</span>.</li>
+              <li class="news-item"><span class="news-date-badge">Nov. 2025</span> One paper <a href="https://arxiv.org/abs/2508.09179">HiFi-Mamba</a> has been accepted to <span class="news-highlight">AAAI 2026</span>! Many thanks to Yingxuan.</li>
+              <li class="news-item"><span class="news-date-badge">Oct. 2025</span> One paper <a href="https://arxiv.org/pdf/2404.01065">T-Mamba</a> has been accepted to <span class="news-highlight">IEEE TMM</span>!</li>
+              <li class="news-item"><span class="news-date-badge">Sep. 2025</span> One paper <a href="https://arxiv.org/pdf/2509.09254">MMOral &amp; OralGPT</a> has been accepted to <span class="news-highlight">NeurIPS 2025</span>.</li>
+              <li class="news-item"><span class="news-date-badge">Jul. 2025</span> One <a href="https://doi.org/10.1093/dmfr/twaf060">paper</a> has been accepted to <span class="news-highlight">DMFR</span> (IF=4.1).</li>
+              <li class="news-item"><span class="news-date-badge">Jun. 2025</span> One <a href="https://www.nature.com/articles/s41746-025-01818-5">paper</a> has been accepted to <span class="news-highlight">npj Digital Medicine</span> (IF=15.1).</li>
+              <li class="news-item"><span class="news-date-badge">Nov. 2024</span> One paper <a href="https://openreview.net/pdf?id=8sJ5Kv9VuS">SemiT-SAM</a> has been accepted to <span class="news-highlight">MICCAI 2024 Workshop</span>!</li>
+              <li class="news-item"><span class="news-date-badge">Oct. 2024</span> One paper <a href="https://arxiv.org/pdf/2307.12018">GEM</a> has been accepted to <span class="news-highlight">IEEE TMM</span>!</li>
+              <li class="news-item"><span class="news-date-badge">Oct. 2024</span> I got 6th place in ToothFairy2: Semi-supervised Teeth Segmentation held at <span class="news-highlight">MICCAI 2024</span>!</li>
+              <li class="news-item"><span class="news-date-badge">Sep. 2024</span> One paper <a href="https://arxiv.org/pdf/2409.13540">FullAnno</a> has been released on arXiv!</li>
+              <li class="news-item"><span class="news-date-badge">Jul. 2024</span> One paper <a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608024004301">METR</a> has been accepted to <span class="news-highlight">Neural Networks</span>!</li>
+              <li class="news-item"><span class="news-date-badge">Aug. 2023</span> I have received my IELTS scores 7(6)!</li>
+            </ul>
+            <button type="button" class="news-toggle" id="newsToggle">Show more</button>
           </td>
         </tr>
       </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table id="publications" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <p><heading>Publications</heading></p>
               <p>
-                See full list at <a href="https://scholar.google.com/citations?user=E8R8c00AAAAJ&hl=zh-CN">Google Scholar.</a> (* indicates equal contribution, # indicates corresponding author)
+                See full list at <a href="https://scholar.google.com/citations?user=E8R8c00AAAAJ&hl=zh-CN">Google Scholar.</a> (* indicates equal contribution, # indicates corresponding author. The leading papers are <span style="background-color: #FFFEE0;">highlighted</span>.)
               </p>
+              <div class="tag-filter" id="tagFilter">
+                <button type="button" class="tag-btn active" data-tag="all">All</button>
+                <button type="button" class="tag-btn" data-tag="mllm">MLLM</button>
+                <button type="button" class="tag-btn" data-tag="agent">Agent</button>
+                <button type="button" class="tag-btn" data-tag="segmentation">Segmentation</button>
+                <button type="button" class="tag-btn" data-tag="benchmark">Benchmark</button>
+              </div>
             </td>
           </tr>
         </tbody></table>
 
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody
-	  
-																																 
+        <table class="publications-table" style="width:100%;border:0px;border-spacing:0 16px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 		<!-- OralAgent -->
-          <tr>
+          <tr class="leading-paper" data-tags="agent,mllm">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_OralAgent.jpg" alt="dise">
             </td>
@@ -172,7 +171,7 @@
           </tr>
 			
 		<!-- OralGPT-Omni -->
-          <tr>
+          <tr class="leading-paper" data-tags="mllm,benchmark">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_OralGPT-Omni.png" alt="dise">
             </td>
@@ -189,16 +188,16 @@
 	      Kuo Feng Hung 
 	      <br>
         	<a href="https://arxiv.org/abs/2511.22055">[paper]</a>
-		<a href="https://github.com/isbrycee/OralGPT">[code]</a> | 
-		<a href="https://github.com/isbrycee/OralGPT"> <img alt="Github stars" src="https://img.shields.io/github/stars/isbrycee/OralGPT?style=social"></a>
+		<a href="https://github.com/isjinghao/OralGPT">[code]</a> | 
+		<a href="https://github.com/isjinghao/OralGPT"> <img alt="Github stars" src="https://img.shields.io/github/stars/isjinghao/OralGPT?style=social"></a>
               <br>
-              <em><b>CVPR, 2025 (CCF-A)</b></em>
+              <em><b>CVPR, 2026 (CCF-A)</b></em>
               <br>
               <p>We present OralGPT-Omni, the first dental-specialized MLLM designed for comprehensive and trustworthy analysis across diverse dental imaging modalities and clinical tasks. We also introduce MMOral-Uni, the first unified multimodal benchmark for dental image analysis.</p>
             </td>
           </tr>
 		<!-- OralGPT-Plus -->
-          <tr>
+          <tr class="leading-paper" data-tags="mllm,agent">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_OralGPT_Plus.jpg" alt="dise">
             </td>
@@ -215,16 +214,16 @@
 	      Hao Tang
 	      <br>
         	<a href="https://arxiv.org/abs/2603.06366">[paper]</a>
-		<a href="https://github.com/isbrycee/OralGPT">[code]</a> | 
-		<a href="https://github.com/isbrycee/OralGPT"> <img alt="Github stars" src="https://img.shields.io/github/stars/isbrycee/OralGPT?style=social"></a>
+		<a href="https://github.com/isjinghao/OralGPT">[code]</a> | 
+		<a href="https://github.com/isjinghao/OralGPT"> <img alt="Github stars" src="https://img.shields.io/github/stars/isjinghao/OralGPT?style=social"></a>
               <br>
-              <em><b>CVPR, 2025 (CCF-A)</b></em>
+              <em><b>CVPR, 2026 (CCF-A)</b></em>
               <br>
               <p>We present OralGPT-Plus, an agentic vision–language model designed to perform iterative and symmetry-aware diagnostic reasoning for panoramic dental radiograph analysis.</p>
             </td>
           </tr>
 		<!-- MMOral -->
-          <tr>
+          <tr class="leading-paper" data-tags="mllm,benchmark">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/MMOral_OralGPT.png" alt="dise">
             </td>
@@ -242,8 +241,8 @@
 	      <br>
         	<a href="https://arxiv.org/pdf/2509.09254">[paper]</a>
 		<a href="https://isbrycee.github.io/MMOral-page/">[Project Page]</a>
-		<a href="https://github.com/isbrycee/OralGPT">[code]</a> | 
-		<a href="https://github.com/isbrycee/OralGPT"> <img alt="Github stars" src="https://img.shields.io/github/stars/isbrycee/OralGPT?style=social"></a>
+		<a href="https://github.com/isjinghao/OralGPT">[code]</a> | 
+		<a href="https://github.com/isjinghao/OralGPT"> <img alt="Github stars" src="https://img.shields.io/github/stars/isjinghao/OralGPT?style=social"></a>
               <br>
               <em><b>NeurIPS, 2025 (CCF-A)</b></em>
               <br>
@@ -251,7 +250,7 @@
             </td>
           </tr>
      <!-- Systematic Review -->
-          <tr>
+          <tr class="leading-paper" data-tags="">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_Systematic_Review.png" alt="dise">
             </td>
@@ -274,7 +273,7 @@
             </td>
           </tr>	
 	<!-- T-Mamba -->
-          <tr>
+          <tr class="leading-paper" data-tags="segmentation">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_T-Mamba.png" alt="dise">
             </td>
@@ -291,8 +290,8 @@
 	      <br>
         	<a href="https://arxiv.org/pdf/2404.01065">[paper]</a>
 		<a href="https://huggingface.co/datasets/Bryceee/TED3">[dataset]</a>
-		<a href="https://github.com/isbrycee/T-Mamba">[code]</a> | 
-		<a href="https://github.com/isbrycee/T-Mamba"> <img alt="Github stars" src="https://img.shields.io/github/stars/isbrycee/T-Mamba?style=social"></a>
+		<a href="https://github.com/isjinghao/T-Mamba">[code]</a> | 
+		<a href="https://github.com/isjinghao/T-Mamba"> <img alt="Github stars" src="https://img.shields.io/github/stars/isjinghao/T-Mamba?style=social"></a>
               <br>
               <em><b>IEEE Transactions on Multimedia (TMM), 2025 (JCR Q1, IF=9.7)</b></em>
               <br>
@@ -300,7 +299,7 @@
             </td>
           </tr>
 	  <!-- GEM -->
-          <tr>
+          <tr data-tags="segmentation">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_GEM.png" alt="dise">
             </td>
@@ -316,8 +315,8 @@
 	      <br>
         	<a href="https://arxiv.org/pdf/2307.12018">[paper]</a>
 		<a href="https://huggingface.co/datasets/Bryceee/S-GSD">[dataset]</a>
-		<a href="https://github.com/isbrycee/GEM">[code]</a> | 
-		<a href="https://github.com/isbrycee/GEM"> <img alt="Github stars" src="https://img.shields.io/github/stars/isbrycee/GEM?style=social"></a>
+		<a href="https://github.com/isjinghao/GEM">[code]</a> | 
+		<a href="https://github.com/isjinghao/GEM"> <img alt="Github stars" src="https://img.shields.io/github/stars/isjinghao/GEM?style=social"></a>
               <br>
               <em><b>IEEE Transactions on Multimedia (TMM), 2024 (JCR Q1, IF=9.7)</b></em>
               <br>
@@ -326,7 +325,7 @@
           </tr>
 		
           <!-- METR -->
-          <tr>
+          <tr data-tags="">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_METR.png" alt="dise">
             </td>
@@ -339,8 +338,8 @@
               Song Chen
 	      <br>
         	<a href="https://www.sciencedirect.com/science/article/abs/pii/S0893608024004301">[paper]</a>
-		<a href="https://github.com/isbrycee/METR">[code]</a> | 
-		<a href="https://github.com/isbrycee/METR"> <img alt="Github stars" src="https://img.shields.io/github/stars/isbrycee/METR?style=social"></a>
+		<a href="https://github.com/isjinghao/METR">[code]</a> | 
+		<a href="https://github.com/isjinghao/METR"> <img alt="Github stars" src="https://img.shields.io/github/stars/isjinghao/METR?style=social"></a>
               <br>
               <em><b>Neural Networks, 2024 (JCR Q1, IF=6.3)</b></em>
               <br>
@@ -348,7 +347,7 @@
             </td>
           </tr>
 	  <!-- SemiT-SAM -->
-          <tr>
+          <tr data-tags="segmentation">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_SemiT-SAM.png" alt="dise">
             </td>
@@ -366,8 +365,8 @@
 	      <br>
 		<a href="https://openreview.net/pdf?id=8sJ5Kv9VuS">[paper]</a>
 		<a href="https://huggingface.co/datasets/Bryceee/TISI15k-Dataset">[dataset]</a>
-		<a href="https://github.com/isbrycee/SemiTNet">[code]</a> | 
-		<a href="https://github.com/isbrycee/SemiTNet"> <img alt="Github stars" src="https://img.shields.io/github/stars/isbrycee/SemiTNet?style=social"></a>
+		<a href="https://github.com/isjinghao/SemiT-SAM">[code]</a> | 
+		<a href="https://github.com/isjinghao/SemiT-SAM"> <img alt="Github stars" src="https://img.shields.io/github/stars/isjinghao/SemiT-SAM?style=social"></a>
               <br>
               <em><b>MICCAI 2024 Workshop</b></em>
               <br>
@@ -375,7 +374,7 @@
             </td>
           </tr>
 	  <!-- FullAnno -->
-          <tr>
+          <tr data-tags="mllm">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_fullanno_v1.png" alt="dise">
             </td>
@@ -399,7 +398,7 @@
             </td>
           </tr>
 	  <!-- SemiTNet -->
-          <tr>
+          <tr data-tags="segmentation">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_SemiTNet.png" alt="dise">
             </td>
@@ -416,8 +415,8 @@
 	      Kuo Feng Hung #
 	      <br>
 		<a href="https://www.mdpi.com/2075-4418/14/17/1948">[paper]</a>
-		<a href="https://github.com/isbrycee/SemiTNet">[code]</a> | 
-		<a href="https://github.com/isbrycee/SemiTNet"> <img alt="Github stars" src="https://img.shields.io/github/stars/isbrycee/SemiTNet?style=social"></a>
+		<a href="https://github.com/isjinghao/SemiT-SAM">[code]</a> | 
+		<a href="https://github.com/isjinghao/SemiT-SAM"> <img alt="Github stars" src="https://img.shields.io/github/stars/isjinghao/SemiT-SAM?style=social"></a>
               <br>
               <em><b>Diagnostics, 2024 (JCR Q1, IF=3.0)</b></em>
               <br>
@@ -425,7 +424,7 @@
             </td>
           </tr>
 	  <!-- GSCA -->
-          <tr>
+          <tr data-tags="">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_GSCA.png" alt="dise">
             </td>
@@ -450,7 +449,7 @@
           </tr>
 
 	  <!-- ANAFNet -->
-          <tr>
+          <tr data-tags="">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_ANAFNet.png" alt="dise">
             </td>
@@ -475,7 +474,7 @@
           </tr>
 
 	<!-- GRNet -->
-          <tr>
+          <tr data-tags="">
             <td style="padding:20px;width:30%;max-width:30%" align="center">
               <img style="width:100%;max-width:100%" src="images/framework_X_ray.png" alt="dise">
             </td>
@@ -500,78 +499,8 @@
           </tr>
         </tbody></table>
 	
-<!-- Competitions -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Competition</heading>
-            <p>
-	      <li style="margin: 5px;" > 
-		The 6th place in ToothFairy2 : Semi-supervised Teeth Segmentation hold on <b>MICCAI2024</b>
-              </li>	  
-	      <img class="center" src="images/certificate_6th_MICCAI2024.png" alt="Certificate">
-            </p>
-          </td>
-        </tr>
-      </tbody></table>
-<!-- End Competition -->
-	
-<!-- Services -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <tr>
-          <td style="padding:20px;width:100%;vertical-align:middle">
-            <heading>Services</heading>
-            <p>
-		<li style="margin: 5px;" > 
-		 Editorial Board Member, <b>Health AI Frontier</b>, 2026.01–present
-              </li>
-	      <li style="margin: 5px;" > 
-		Reviewer for <b>IEEE Transactions on Circuits and Systems for Video Technology</b>
-              </li>
-		<li style="margin: 5px;" > 
-		Reviewer for <b>IEEE Transactions on Neural Networks and Learning Systems</b>
-              </li>
-	      <li style="margin: 5px;" > 
-		Reviewer for <b>IEEE Signal Processing Letters</b>
-			  </li>
-		<li style="margin: 5px;" > 
-		Reviewer for <b>Engineering Applications of Artificial Intelligence</b>
-              </li>
-		<li style="margin: 5px;" > 
-		Reviewer for <b>NeurIPS, 2026</b>
-              </li>
-	    <li style="margin: 5px;" > 
-		Reviewer for <b>ACM Multimedia 2025, 2026</b>
-              </li>
-		<li style="margin: 5px;" > 
-		Reviewer for <b>ACM Multimedia Asia 2025</b>
-              </li>
-		<li style="margin: 5px;" > 
-		Reviewer for <b>MICCAI 2025, 2026</b>
-              </li>
-		<li style="margin: 5px;" > 
-		Reviewer for <b>Scientific Data</b>
-              </li>  
-	      <li style="margin: 5px;" > 
-		Reviewer for <b>Scientific Reports</b>
-              </li>    
-	      <li style="margin: 5px;" > 
-		Reviewer for <b>Applied Intelligence</b>
-              </li>
-	      <li style="margin: 5px;" > 
-		Reviewer for <b>Medinformatics</b> 
-              </li>
-		  <li style="margin: 5px;" > 
-		Reviewer for <b>International Journal of Machine Learning and Cybernetics</b>
-              </li>
-            </p>
-          </td>
-        </tr>
-      </tbody></table>
-<!-- End Services -->
-	
 <!-- Education & Experience -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table id="experience" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
             <td style="padding:20px;width:100%;vertical-align:middle">
               <p><heading>Education & Experience</heading></p>
@@ -587,7 +516,7 @@
               <papertitle>The University of Hong Kong (HKU)</papertitle>
               </a>
               <br> <em>2024.09 - now</em>
-	      <br> <strong>Ph.D Student</strong>, <a href="https://facdent.hku.hk/"><d>Faculty of Dentistry (Ranking 3rd in the world)</d></a>
+	      <br> <strong>Ph.D Student</strong>, <a href="https://facdent.hku.hk/"><d>Faculty of Dentistry (Ranking 2nd in the world)</d></a>
 	      <br> <font color="#FF0000"><strong> MLLM, Agent </strong></font>
             </td>
           </tr>
@@ -670,35 +599,31 @@
           </tr>
       </tbody></table>
 <!-- End Education & Experience -->
+
+<!-- Services -->
+        <table id="service" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+          <tr>
+          <td style="padding:20px;width:100%;vertical-align:middle">
+            <heading>Services</heading>
+            <ul class="service-list">
+              <li>Editorial Board Member, <b>Health AI Frontier</b>, 2026.01–present</li>
+              <li>Conference reviewer: <b>NeurIPS 2026</b>, <b>MICCAI 2025/26</b>, <b>ACM MM 2025/26</b>, <b>AAAI 2027</b></li>
+              <li>Journal reviewer: <b>IEEE TMI</b>, <b>IEEE TCSVT</b>, <b>IEEE TNNLS</b>, <b>IEEE SPL</b>, <b>npj Digital Medicine</b>, <b>Scientific Data</b>, <b>Scientific Reports</b>, <b>EAAI</b></li>
+            </ul>
+          </td>
+        </tr>
+      </tbody></table>
+<!-- End Services -->
 	
 <!-- Selected Awards and Honors -->
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+        <table id="awards" class="page-section" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <tr>
           <td style="padding:20px;width:100%;vertical-align:middle">
             <p><heading>Selected Awards & Honors</heading></p>
-            <p>
-                <li style="margin: 5px;" >
-                  <b><font color="#FF0000">National Scholarship</font></b> (2018)
-                </li>
-                <li style="margin: 5px;" >
-                  First-class Scholarship in HUST (2021)
-                </li>
-                <li style="margin: 5px;" >
-                  First-class Scholarship in CUMT (2019)
-                </li>
-                <li style="margin: 5px;" >
-                  Second-class Scholarship in CUMT (2017)
-                </li>
-                <li style="margin: 5px;" >
-                  Outstanding student in CUMT (2018)
-                </li>
-                <li style="margin: 5px;" >
-                  Excellent Student Leader in Jiangsu Province (2019)
-                </li>
-                <li style="margin: 5px;" >
-                  Excellent Young Volunteer in Xuzhou City (2019)
-                </li>
-              </p>
+            <ul class="news-list">
+              <li class="news-item"><b><font color="#FF0000">National Scholarship</font></b> (2018)</li>
+              <li class="news-item">First-class Scholarship in HUST (2021)</li>
+            </ul>
             <!-- <p>
                * indicates project lead, # indicates directional lead
             </p> -->
@@ -729,4 +654,133 @@
 </center></p>
 </body> -->
 
+  <button id="backToTop" type="button" title="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+      <path d="M12 19V5"></path>
+      <path d="m5 12 7-7 7 7"></path>
+    </svg>
+  </button>
+
+  <script>
+    (function() {
+      var newsList = document.getElementById('newsList');
+      var newsToggle = document.getElementById('newsToggle');
+      if (newsList && newsToggle && newsList.querySelectorAll('.news-item').length > 8) {
+        newsToggle.classList.add('visible');
+        newsToggle.addEventListener('click', function() {
+          var expanded = newsList.classList.toggle('expanded');
+          newsToggle.textContent = expanded ? 'Show less' : 'Show more';
+        });
+      }
+
+      var rows = document.querySelectorAll('.publications-table tr[data-tags]');
+      document.querySelectorAll('.tag-btn').forEach(function(btn) {
+        var tag = btn.dataset.tag;
+        var count = tag === 'all'
+          ? rows.length
+          : Array.from(rows).filter(function(row) {
+              return row.dataset.tags.split(',').indexOf(tag) !== -1;
+            }).length;
+        btn.insertAdjacentHTML('beforeend', '<span class="tag-count">' + count + '</span>');
+      });
+
+      var tagFilter = document.getElementById('tagFilter');
+      if (tagFilter) {
+        tagFilter.addEventListener('click', function(e) {
+          var btn = e.target.closest('.tag-btn');
+          if (!btn) return;
+          document.querySelectorAll('.tag-btn').forEach(function(item) {
+            item.classList.remove('active');
+          });
+          btn.classList.add('active');
+          var tag = btn.dataset.tag;
+          rows.forEach(function(row) {
+            var tags = row.dataset.tags ? row.dataset.tags.split(',') : [];
+            row.style.display = (tag === 'all' || tags.indexOf(tag) !== -1) ? '' : 'none';
+          });
+        });
+      }
+
+      rows.forEach(function(row, index) {
+        var title = row.querySelector('papertitle');
+        if (!title) return;
+        var titleContainer = title.closest('a') || title;
+        var firstBreak = titleContainer.nextElementSibling;
+        if (!firstBreak || firstBreak.tagName !== 'BR') return;
+        var lastBreak = firstBreak.nextElementSibling;
+        while (lastBreak && lastBreak.tagName !== 'BR') {
+          lastBreak = lastBreak.nextElementSibling;
+        }
+        if (!lastBreak) return;
+
+        var authorNodes = [];
+        var node = firstBreak.nextSibling;
+        while (node && node !== lastBreak) {
+          authorNodes.push(node);
+          node = node.nextSibling;
+        }
+
+        var shell = document.createElement('div');
+        shell.className = 'publication-authors-shell';
+        var authors = document.createElement('div');
+        authors.className = 'publication-authors';
+        authors.id = 'publication-authors-' + index;
+        authorNodes.forEach(function(authorNode) {
+          authors.appendChild(authorNode);
+        });
+
+        var toggle = document.createElement('button');
+        toggle.type = 'button';
+        toggle.className = 'publication-authors-toggle';
+        toggle.textContent = '▶';
+        toggle.setAttribute('aria-controls', authors.id);
+        toggle.setAttribute('aria-expanded', 'false');
+        toggle.setAttribute('aria-label', 'Expand author list');
+        toggle.title = 'Expand author list';
+
+        shell.appendChild(authors);
+        shell.appendChild(toggle);
+        firstBreak.parentNode.insertBefore(shell, firstBreak);
+        firstBreak.remove();
+        lastBreak.remove();
+
+        toggle.addEventListener('click', function() {
+          var expanded = shell.classList.toggle('expanded');
+          toggle.textContent = expanded ? '▼' : '▶';
+          toggle.setAttribute('aria-expanded', String(expanded));
+          toggle.setAttribute('aria-label', expanded ? 'Collapse author list' : 'Expand author list');
+          toggle.title = expanded ? 'Collapse author list' : 'Expand author list';
+        });
+      });
+
+      function updateAuthorToggles() {
+        document.querySelectorAll('.publication-authors-shell').forEach(function(shell) {
+          var authors = shell.querySelector('.publication-authors');
+          var toggle = shell.querySelector('.publication-authors-toggle');
+          var wasExpanded = shell.classList.contains('expanded');
+          if (wasExpanded) shell.classList.remove('expanded');
+          var hasOverflow = authors.scrollHeight > authors.clientHeight + 1;
+          if (wasExpanded) shell.classList.add('expanded');
+          toggle.hidden = !hasOverflow;
+        });
+      }
+
+      updateAuthorToggles();
+      window.addEventListener('resize', function() {
+        updateAuthorToggles();
+      }, { passive: true });
+
+      var backToTop = document.getElementById('backToTop');
+      window.addEventListener('scroll', function() {
+        if (window.scrollY > 300) {
+          backToTop.classList.add('visible');
+        } else {
+          backToTop.classList.remove('visible');
+        }
+      }, { passive: true });
+      backToTop.addEventListener('click', function() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      });
+    })();
+  </script>
 </html>
