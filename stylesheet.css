@@ -63,8 +63,17 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+:root {
+  --accent: #1a7ad6;
+  --accent-ink: #155a9c;
+  --accent-deep: #0f4f8c;
+  --accent-soft: rgba(26, 122, 214, 0.08);
+  --accent-soft-2: rgba(26, 122, 214, 0.16);
+  --accent-line: rgba(26, 122, 214, 0.34);
+}
+
 a {
-  color: #1772d0;
+  color: var(--accent);
   text-decoration: none;
 }
 
@@ -103,40 +112,47 @@ heading {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-underline-offset: 6px;
-  text-decoration-color: #1772d0;
+  text-decoration-color: var(--accent);
 }
 
-.contact-divider {
-  width: 100%;
-  height: 1px;
-  background: linear-gradient(to right, transparent, #ccc 20%, #ccc 80%, transparent);
-  margin: 10px 0 14px;
+.contact-buttons {
+  text-align: center;
+  margin: 10px 0 0;
 }
 
-.contact-links {
+.contact-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin: 3px 1px;
+  padding: 5px 11px;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  background: #fff;
+  color: var(--accent);
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.3;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+
+.contact-btn i {
+  font-size: 15px;
+  width: 1em;
   text-align: center;
 }
 
-.contact-line {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 3px;
-  line-height: 1.8;
+.contact-btn .ai {
+  font-size: 16px;
 }
 
-.contact-links a {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.contact-links svg {
-  width: 15px;
-  height: 15px;
-  color: currentColor;
-  flex-shrink: 0;
+a.contact-btn:hover,
+a.contact-btn:focus {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
 }
 
 .news-list {
@@ -158,10 +174,10 @@ heading {
   display: inline-block;
   margin-right: 6px;
   padding: 0 6px 1px;
-  border: 1px solid rgba(23, 114, 208, 0.35);
+  border: 1px solid var(--accent-line);
   border-radius: 3px;
-  background: rgba(23, 114, 208, 0.08);
-  color: #1a4d8c;
+  background: var(--accent-soft);
+  color: var(--accent-ink);
   font-size: 13px;
   font-weight: 400;
   line-height: 1.4;
@@ -173,14 +189,14 @@ heading {
   text-decoration: underline;
   text-decoration-thickness: 1.5px;
   text-underline-offset: 3px;
-  text-decoration-color: #1772d0;
+  text-decoration-color: var(--accent);
 }
 
 .news-toggle {
   display: none;
   background: none;
   border: none;
-  color: #1772d0;
+  color: var(--accent);
   font-size: 15px;
   font-family: inherit;
   cursor: pointer;
@@ -216,9 +232,9 @@ heading {
 .tag-btn {
   padding: 5px 14px;
   border-radius: 20px;
-  border: 1px solid rgba(23, 114, 208, 0.22);
-  background: rgba(23, 114, 208, 0.06);
-  color: #1a4d8c;
+  border: 1px solid var(--accent-line);
+  background: var(--accent-soft);
+  color: var(--accent-ink);
   font-size: 14px;
   font-family: inherit;
   cursor: pointer;
@@ -226,15 +242,15 @@ heading {
 }
 
 .tag-btn:hover {
-  border-color: rgba(23, 114, 208, 0.45);
-  background: rgba(23, 114, 208, 0.1);
+  border-color: var(--accent);
+  background: var(--accent-soft-2);
 }
 
 .tag-btn.active {
-  background: #1772d0;
+  background: var(--accent);
   color: #fff;
-  border-color: #1772d0;
-  box-shadow: 0 2px 8px rgba(23, 114, 208, 0.22);
+  border-color: var(--accent);
+  box-shadow: 0 2px 8px var(--accent-soft-2);
 }
 
 .tag-count {
@@ -300,7 +316,7 @@ heading {
   padding: 0;
   border: 0;
   background: transparent;
-  color: #1772d0;
+  color: var(--accent);
   font-size: 11px;
   line-height: 22px;
   text-align: center;
@@ -373,8 +389,8 @@ heading {
 
 .section-drip-nav a:hover::before,
 .section-drip-nav a:focus::before {
-  border-color: #1772d0;
-  background: #e8f2fc;
+  border-color: var(--accent);
+  background: var(--accent-soft);
   transform: rotate(-45deg) scale(1.12);
 }
 
@@ -395,7 +411,7 @@ heading {
   height: 44px;
   border: none;
   outline: none;
-  background: rgba(23, 114, 208, 0.88);
+  background: var(--accent);
   color: #fff;
   cursor: pointer;
   border-radius: 50%;
@@ -403,7 +419,7 @@ heading {
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: 0 2px 12px rgba(23, 114, 208, 0.28);
+  box-shadow: 0 2px 12px var(--accent-soft-2);
   opacity: 0;
   visibility: hidden;
   transform: translateY(16px);
@@ -417,7 +433,7 @@ heading {
 }
 
 #backToTop:hover {
-  background: #1258a3;
+  background: var(--accent-deep);
   transform: translateY(-3px);
 }
 
